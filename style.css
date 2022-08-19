@@ -134,6 +134,9 @@ span::before {
     float: right;
     display: block;
   }
+  .logo img {
+  height: 40px;
+}
 }
 
 @media screen and (max-width: 600px) {
