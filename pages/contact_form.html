@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MARTINEZ&#174 Online Store: Jen's Crafts & Creations</title>
+  <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
+
+  <link rel="stylesheet" href="../style.css">
+
+  <!--Fonts-------------------->
+  <link rel="stylesheet" href="https://use.typekit.net/fki5wxm.css">
+
+  <!--jQuery-------------------->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script>
+    $(function () {
+      $("#header").load("header.html");
+      $("#footer").load("footer.html");
+    }); 
+  </script>
+
+</head>
+
+<body>
+
+  <!--HEADER-------------------------------------------------------------------------------------------->
+  <div id="header"></div>
+
+  <!--CONTENT------------------------------------------------------------------------------------------->
+
+  <div class="content">
+
+    <div class="center-text">
+      <div class="line-one">Contact Us</div>
+    </div>
+    <hr>
+
+    <div class="container-contact-us">
+      <form action="/action_page.php">
+        <label for="name">NAME</label>
+        <input type="text" id="name" name="" placeholder="">
+
+        <label for="email">EMAIL</label>
+        <input type="text" id="email" name="email" placeholder="">
+
+        <label for="phone">PHONE NUMBER</label>
+        <input type="text" id="phone" name="phone" placeholder="">
+
+        <label for="message">MESSAGE</label>
+        <textarea id="message" name="message" placeholder="" style="height:150px"></textarea>
+
+        <input type="submit" value="SEND">
+      </form>
+    </div>
+  </div>
+
+
+  <!--FOOTER---------------------------------------------------------------------------------------->
+  <div id="footer"></div>
+  <script src="../script.js"></script>
+</body>
+
+</html>
